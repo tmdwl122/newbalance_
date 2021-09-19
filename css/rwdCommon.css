@@ -1,0 +1,92 @@
+@media screen and (max-width:1800px) {
+
+    #nav .open.on + .openlist {
+        width: 25%;
+    }
+
+    #nav .openlist .list1 {
+        padding: 60px 0 40px 40px; 
+    }
+    #nav .list2 {
+        position: static; top:100%; left: 0;
+        font-size:16px;
+        width: 100%; 
+        opacity: 1;
+        transition: all 0.3s;
+        display: none;
+    }
+    
+
+    .list1 li.on .list2 {
+        display: block;
+    }
+
+
+    
+
+/* footer */
+footer .infoBox {
+    width: 100%;
+    margin: 0 auto;
+    color: #acacac;
+    font-size: 13px;
+    overflow: hidden;
+    padding: 60px 50px 40px 150px;
+    word-break: keep-all;
+}
+
+.infoBox .infoL {
+    float: left;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.infoBox .infoR {
+    float: left;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.gotop {
+    display: none;
+}
+
+
+    
+}
+
+
+
+@media screen and (max-width:1800px) {
+    #nav .open.on + .openlist {
+        width: 40%;
+    }
+
+    #nav .openlist .list1 {
+        padding: 60px 0 40px 20px; 
+    }
+
+    .openlist .login {
+        padding: 50px 0 0 20px;
+    }
+
+    .openlist .login li {
+        padding-right: 0px;
+        display: block;
+    }
+
+    .openlist .login li:first-child::after {
+        content:none
+    }
+
+    footer .infoBox {
+        width: 100%;
+        margin: 0 auto;
+        color: #acacac;
+        font-size: 13px;
+        overflow: hidden;
+        padding: 60px 0px 40px 90px;
+        word-break: keep-all;
+    }
+    
+}
